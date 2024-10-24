@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-image: url('./assets/bg2.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Makes the image fixed when scrolling */
+}
